@@ -22,12 +22,12 @@ const productSchema = new mongoose.Schema({
     default: Date.now(),
   },
   company: {
-    type: String,
     enum: {
+      type: String,
       value: ["ikea", "liddy", "caressa", "marcos"],
       message: "{VALUE} is not supported",
     },
   },
 });
 
-module.export = mongoose.model("Product", productSchema);
+module.exports = mongoose.model("Product", productSchema);
