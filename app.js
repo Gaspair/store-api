@@ -1,7 +1,7 @@
 require("dotenv").config();
-
 require("express-async-errors");
 
+const cors = require("cors");
 const express = require("express");
 const app = express();
 
@@ -13,6 +13,7 @@ const errorMiddleware = require("./middleware/error-handler");
 
 //middle ware
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("<h1>Store API</h1> <a href='/api/v1/products'></a>");
