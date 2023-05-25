@@ -6,6 +6,16 @@ const getAllProductsStatic = async (req, res) => {
   );
   res.status(200).json({ products, nbHits: products.length });
 };
+
+const getProduct = async (req, res) => {
+  const { id: productID } = req.params;
+  const product = await Product.findOne({ _id: productID });
+  if (!product) {
+    return `No product with id: ${product}`;
+  }
+  res.status(200).json({ product });
+};
+
 const getAllProducts = async (req, res) => {
   const { featured, brand, name, sort, fields, numericFilters } = req.query;
 
@@ -69,4 +79,5 @@ const getAllProducts = async (req, res) => {
 module.exports = {
   getAllProductsStatic,
   getAllProducts,
+  getProduct,
 };
