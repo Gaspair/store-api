@@ -1,131 +1,122 @@
 [
   {
-    "name": "accent chair",
-    "price": 25,
-    "company": "marcos",
-    "rating": 4
-  },
-  {
-    "name": "albany sectional",
-    "price": 109,
-    "company": "liddy",
-    "rating": 5
-  },
-  {
-    "name": "albany table",
-    "price": 309,
-    "company": "liddy",
-    "rating": 4.9
-  },
-  {
-    "name": "armchair",
-    "price": 125,
-    "company": "marcos",
-    "rating": 4.8
-  },
-  {
-    "name": "bar stool",
-    "price": 40,
-    "company": "liddy",
-    "rating": 4.6
-  },
-  {
-    "name": "dining table",
-    "price": 42,
-    "company": "ikea",
-    "rating": 4.55
-  },
-  {
-    "name": "emperor bed",
-    "price": 23,
-    "company": "ikea"
-  },
-  {
-    "name": "entertainment center",
-    "price": 59,
+    "name": "Death Wish Coffee",
+    "price": 15.99,
     "featured": true,
-    "company": "caressa"
+    "rating": 4.5,
+    "createdAt": "2023-05-25T10:30:00.000Z",
+    "brand": "death-wish",
+    "description": "This is a strong and bold coffee with an intense flavor.",
+    "img": "https://images.unsplash.com/photo-1588483977150-9c2127ab7bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
+    "type": "ground",
+    "quantity": 100
   },
   {
-    "name": "high-back bench",
-    "price": 39,
+    "name": "Espresso Blend",
+    "price": 12.99,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2023-05-25T11:15:00Z",
+    "brand": "lavazza",
+    "description": "Perfect for making espresso shots.",
+    "img": "https://images.unsplash.com/photo-1588483977150-9c2127ab7bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
+    "type": "whole bean",
+    "quantity": 50
+  },
+  {
+    "name": "Costa Rican Blend",
+    "price": 9.99,
     "featured": true,
-    "company": "ikea"
+    "rating": 4.5,
+    "createdAt": "2023-05-25T09:45:00Z",
+    "brand": "costa",
+    "description": "Smooth and medium-bodied coffee from Costa Rica.",
+    "img": "https://images.unsplash.com/photo-1588483977150-9c2127ab7bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
+    "type": "ground",
+    "quantity": 75
   },
-
   {
-    "name": "leather sofa",
-    "price": 99,
-    "company": "caressa"
+    "name": "Italian Roast",
+    "price": 11.99,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2023-05-25T12:00:00Z",
+    "brand": "illy",
+    "description": "Robust and full-bodied Italian-style coffee.",
+    "img": "https://images.unsplash.com/photo-1588483977150-9c2127ab7bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
+    "type": "ground",
+    "quantity": 60
   },
   {
-    "name": "modern bookshelf",
-    "price": 31,
+    "name": "Decaf Blend",
+    "price": 8.99,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2023-05-25T11:30:00Z",
+    "brand": "lavazza",
+    "description": "Rich and flavorful decaffeinated coffee.",
+    "img": "https://images.unsplash.com/photo-1563201180-1c57435ae249?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "type": "ground",
+    "quantity": 80
+  },
+  {
+    "name": "French Roast",
+    "price": 10.99,
     "featured": true,
-    "company": "caressa"
+    "rating": 4.5,
+    "createdAt": "2023-05-25T10:45:00Z",
+    "brand": "death-wish",
+    "description": "Bold and smoky dark roast coffee.",
+    "img": "https://images.unsplash.com/photo-1563201180-1c57435ae249?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "type": "whole bean",
+    "quantity": 40
   },
   {
-    "name": "modern poster",
-    "price": 30,
-    "company": "liddy"
-  },
-  {
-    "name": "shelf",
-    "price": 30,
-    "company": "ikea"
-  },
-  {
-    "name": "simple chair",
-    "price": 109,
-    "company": "liddy"
-  },
-  {
-    "name": "sofa set",
-    "price": 129,
-    "company": "marcos"
-  },
-  {
-    "name": "suede armchair",
-    "price": 15,
-    "company": "caressa"
-  },
-  {
-    "name": "utopia sofa",
-    "price": 79,
+    "name": "Medium Roast",
+    "price": 9.99,
     "featured": true,
-    "company": "liddy"
+    "rating": 4.5,
+    "createdAt": "2023-05-25T09:30:00Z",
+    "brand": "illy",
+    "description": "Balanced and smooth medium roast coffee.",
+    "img": "https://images.unsplash.com/photo-1570443005116-f5171450d1bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80",
+    "type": "whole bean",
+    "quantity": 55
   },
   {
-    "name": "vase table",
-    "price": 120,
+    "name": "Single Origin",
+    "price": 12.99,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2023-05-25T12:15:00Z",
+    "brand": "costa",
+    "description": "Distinctive coffee sourced from a single region.",
+    "img": "https://images.unsplash.com/photo-1563201180-1c57435ae249?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "type": "ground",
+    "quantity": 70
+  },
+  {
+    "name": "Breakfast Blend",
+    "price": 10.99,
     "featured": true,
-    "company": "marcos"
+    "rating": 4.5,
+    "createdAt": "2023-05-25T10:00:00Z",
+    "brand": "illy",
+    "description": "Light and smooth coffee for a refreshing start.",
+    "img": "https://images.unsplash.com/photo-1570443005116-f5171450d1bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80",
+    "type": "ground",
+    "quantity": 90
   },
   {
-    "name": "wooden bed",
-    "price": 25,
-    "company": "ikea"
-  },
-  {
-    "name": "wooden desk",
-    "price": 15,
-    "company": "ikea"
-  },
-  {
-    "name": "wooden desk",
-    "price": 40,
-    "company": "ikea"
-  },
-  {
-    "name": "wooden table",
-    "price": 23,
-    "featured": true,
-    "company": "caressa"
-  },
-  {
-    "name": "a first wooden table",
-    "price": 23,
-    "featured": true,
-    "company": "caressa"
+    "name": "Organic Fair Trade",
+    "price": 11.99,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2023-05-25T12:30:00Z",
+    "brand": "lavazza",
+    "description": "Sustainably sourced coffee with a rich flavor.",
+    "img": "https://images.unsplash.com/photo-1610219170948-60d096443dc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "type": "whole bean",
+    "quantity": 65
   }
 ]
