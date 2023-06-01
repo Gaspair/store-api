@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const productSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, "product name must be provided"],
+    require: [true, "product name must be provided"],
   },
   price: {
     type: Number,
@@ -21,12 +21,28 @@ const productSchema = new mongoose.Schema({
     type: Date,
     default: Date.now(),
   },
-  company: {
+  brand: {
     type: String,
     enum: {
-      values: ["ikea", "liddy", "caressa", "marcos"],
+      values: ["death-wish", "costa", "illy", "lavazza"],
       message: "{VALUE} is not supported",
     },
+  },
+  description: {
+    type: String,
+    required: [true, "product description must be provided"],
+  },
+  img: {
+    type: String,
+    required: [true, "product image must be provided"],
+  },
+  type: {
+    type: String,
+    default: "ground",
+  },
+  quantity: {
+    type: Number,
+    default: "1",
   },
 });
 
