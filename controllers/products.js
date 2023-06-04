@@ -79,7 +79,7 @@ const createProduct = async (req, res) => {
 };
 const updateProduct = async (req, res) => {
   const {
-    body: { brand, name, price, description, img },
+    body: { brand, name, price, description, img, quantity, type },
 
     params: { id: productId },
   } = req;
@@ -89,7 +89,9 @@ const updateProduct = async (req, res) => {
     price === "" ||
     brand === "" ||
     description === "" ||
-    img === ""
+    img === "" ||
+    quantity === "" ||
+    type === ""
   ) {
     throw new BadRequestError("Company or Position fields cannot be empty.");
   }
@@ -105,9 +107,23 @@ const updateProduct = async (req, res) => {
   res.status(StatusCodes.OK).json({ product });
 };
 
+const deleteProduct = async (req, res) => {
+  const {
+    params: { id: productId },
+  } = req;
+
+  const product = await Product.findOneAndRemove({ _id: productId });
+
+  if (!product) {
+    throw new NotFoundError(`No product with id ${productId}`);
+  }
+  res.status(StatusCodes.OK).send();
+};
+
 module.exports = {
   getAllProducts,
   getProduct,
   createProduct,
   updateProduct,
+  deleteProduct,
 };
